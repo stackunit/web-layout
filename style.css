@@ -1,0 +1,49 @@
+*{ margin: 0;}
+a{ text-decoration: none;}
+.fl{ float: left;}
+.fr{ float: right;}
+.new{ float: left; margin-left: 1%;}
+.clr{ clear: both;}
+/* case 1
+.head{ height: 100px; background-color: teal;}
+.head a{ font-size: 40px; color: white; line-height: 100px; margin-left: 2%;}
+*/
+.head{ background-color: teal;}
+.head h1{ padding: 1.50% 5%; text-transform: uppercase;}
+.head h1 a{color: white;}
+.nav{ background-color: tomato; height: 40px;}
+.nav ul li{ display: inline; height: 40px;}
+.nav ul li a{
+    padding: 0.50% 2%; 
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.banner{
+    height: 550px;
+    background-image: url(image/banner.jpg);
+    background-size: 100% 550px;
+}
+.banner h1{ 
+    text-align: center; 
+    padding: 10% 5% 2%; 
+    font-size: 60px; 
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.banner ul{ text-align: center;}
+.banner ul li{ 
+    display: inline; 
+    padding: 1%; 
+    background-color: tomato; 
+    color: white; 
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+.noti h2{ padding: 2%;}
+.pro{ width: 90%; margin: auto;}
+.pro_item{ width: 24.25%; height: 250px; background: skyblue;}
+.mid{ min-height: 900px; width: 90%; margin: auto;}
+.footer{ background: teal;}
+.footer h4{ padding: 2%; color: white;}
